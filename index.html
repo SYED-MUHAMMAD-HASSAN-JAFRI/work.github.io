@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple site </title>
+    <style type="text/css">
+        /* Color scheme stolen from Sergey Karayev */
+        a {
+        color: #1772d0;
+        text-decoration:none;
+        }
+        a:focus, a:hover {
+        color: #f09228;
+        text-decoration:none;
+        }
+        body,td,th,tr,p,a {
+        font-family: 'Lato', Verdana, Helvetica, sans-serif;
+        font-size: 14px
+        }
+        strong {
+        font-family: 'Lato', Verdana, Helvetica, sans-serif;
+        font-size: 14px;
+        }
+        heading {
+        font-family: 'Lato', Verdana, Helvetica, sans-serif;
+        font-size: 22px;
+        }
+        papertitle {
+        font-family: 'Lato', Verdana, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 700
+        }
+        name {
+        font-family: 'Lato', Verdana, Helvetica, sans-serif;
+        font-size: 32px;
+        }
+        .one
+        {
+        width: 160px;
+        height: 160px;
+        position: relative;
+        }
+        .two
+        {
+        width: 160px;
+        height: 160px;
+        position: absolute;
+        transition: opacity .2s ease-in-out;
+        -moz-transition: opacity .2s ease-in-out;
+        -webkit-transition: opacity .2s ease-in-out;
+        }
+        .fade {
+         transition: opacity .2s ease-in-out;
+         -moz-transition: opacity .2s ease-in-out;
+         -webkit-transition: opacity .2s ease-in-out;
+        }
+        span.highlight {
+            background-color: #ffffd0;
+        }
+        </style>
+</head>
+<body>
+    <link rel="icon" type="image/png" href="epfl_icon.png">
+    <title>Bugra Tekin</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+    <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+      <tr>
+      <td>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <tr>
+          <td width="80%" valign="middle">
+          <p align="center">
+            <name>Bugra Tekin</name>
+          </p>
+          <p align="justify">I am a scientist at the Microsoft Mixed Reality & AI group in Zurich headed by <a href="https://www.microsoft.com/en-us/research/people/mapoll/">Prof. Marc Pollefeys</a>. I received my Ph.D. degree at the <a href="http://cvlab.epfl.ch">Computer Vision Laboratory</a> of <a href="http://epfl.ch">EPFL</a> under the supervision of <a href="http://people.epfl.ch/cgi-bin/people?id=112366&op=bio&lang=en&cvlang=en">Prof. Pascal Fua</a> and <a href="http://www.labri.fr/perso/vlepetit/">Prof. Vincent Lepetit</a>. Before that, I obtained my M.Sc. degree in Electrical Engineering from <a href="http://epfl.ch">EPFL</a> in 2013, and B.Sc degree in Electrical & Electronics Engineering from <a href="http://www.boun.edu.tr/en-US/Index">Bogazici University</a> in 2011 with high honors. I also spent time at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research</a> during my Ph.D. I am the recipient of <a href="https://www.qualcomm.com/invention/research/university-relations/innovation-fellowship">Qualcomm Innovation Fellowship Europe</a> in 2017. 
+          </p>
+          <p align=center>
+            <a href="mailto:tekinbu@gmail.com">Email</a> &nbsp/&nbsp
+            <a href="https://scholar.google.ch/citations?user=3fa02HAAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
+            <a href="https://www.linkedin.com/in/bugratekin/"> LinkedIn </a>
+          </p>
+          </td>
+          <td width="33%", align=right>
+          <img src="photo_tekin.jpeg">
+          
+        </tr>
+        </table>
+        <table width="100%" align="justify" border="0" cellspacing="0" cellpadding="20">
+        <tr>
+          <td width="100%" valign="middle">
+            <heading>Research</heading>
+            <p align=justify>
+            I'm interested in computer vision, machine learning, deep learning, image processing, and augmented reality. Much of my research is about semantically understanding humans and objects from the camera images in the 3D world. Particularly, I work on 2D/3D human pose estimation, hand pose estimation, action recognition, 3D object detection and 6D pose estimation. In the past, I have also worked in biomedical imaging.
+            </p>
+          </td>
+        </tr>
+        </table>
+  
+        <table width="100%" align="justify" border="0" cellspacing="0" cellpadding="20">
+        <tr>
+          <td width="100%" valign="middle">
+            <heading>Publications</heading>
+          </td>
+        </tr>
+        </table>
+  
+  
+  
+    <table width="100%" align="justify" border="0" cellspacing="0" cellpadding="20">
+  
+      <tr onmouseout="ffcc_stop()" onmouseover="ffcc_start()" >
+        <td width="25%">
+          <img src='cvpr20yana.png'>
+        </td>
+        <td valign="top" width="75%">
+          <p><a href="https://btekin.github.io">
+          <papertitle>Leveraging Photometric Consistency over Time for Sparsely Supervised Hand-Object Reconstruction</papertitle></a><br>
+          Yana Hasson, <strong>Bugra Tekin</strong>, Federica Bogo, Ivan Laptev, Marc Pollefeys, Cordelia Schmid<br>
+          <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2020. <br>
+          <p></p>
+          <p align=justify>In this paper, we propose a new method for dense 3D reconstruction of hands and objects from monocular color images. We further present a self-supervised learning approach leveraging photo-consistency between sparsely supervised frames.</p>
+          <p></p>
+        </td>
+      </tr>
+  
+      <tr onmouseout="ffcc_stop()" onmouseover="ffcc_start()" >
+        <td width="25%">
+          <img src='handplusobject.png'>
+        </td>
+        <td valign="top" width="75%">
+          <p><a href="https://arxiv.org/pdf/1904.05349.pdf">
+          <papertitle>H+O: Unified Egocentric Recognition of 3D Hand-Object Poses and Interactions</papertitle></a><br>
+          <strong>Bugra Tekin</strong>, Federica Bogo, Marc Pollefeys<br>
+          <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2019. <strong>(oral)</strong> <br>
+          <p></p>
+          <p align=justify>In this work,  we propose, for the first time, a unified method to jointly recognize 3D hand and object poses, and their interactions from egocentric monocular color images. Our method jointly estimates the hand and object poses in 3D, models their interactions and recognizes the object and activity classes  with a single feed-forward pass through a neural network.</p>
+          <p></p>
+        </td>
+      </tr>
+  
+      <tr onmouseout="ffcc_stop()" onmouseover="ffcc_start()" >
+        <td width="25%">
+          <img src='lowshotar.png'>
+        </td>
+        <td valign="top" width="75%">
+          <p><a href="https://arxiv.org/abs/1907.09382">
+          <papertitle>Domain-Specific Priors and Meta Learning for Low-shot First-Person Action Recognition</papertitle></a><br>
+          Huseyin Coskun, Zeeshan Zia, <strong>Bugra Tekin</strong>, Federica, Bogo, Nassir Navab, Federico Tombari, Harpreet Sawhney<br>
+          <em>arXiv Preprint, arXiv:1907.09382</em>, 2019.<br>
+          <p></p>
+          <p align=justify> We develop an effective method for low-shot transfer learning for first-person action classification. We leverage independently trained local visual cues to learn representations that can be transferred from a source domain providing primitive action labels  to  a  target  domain  with  only  a  handful  of  examples.</p>
+          <p></p>
+        </td>
+      </tr>
+  
+      <tr onmouseout="ffcc_stop()" onmouseover="ffcc_start()" >
+        <td width="25%">
+          <img src='singleshotpose.png'>
+        </td>
+        <td valign="top" width="75%">
+          <p><a href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Tekin_Real-Time_Seamless_Single_CVPR_2018_paper.pdf">
+          <papertitle>Real Time Seamless Single Shot 6D Object Pose Prediction</papertitle></a><br>
+          <strong>Bugra Tekin</strong>, Sudipta N. Sinha, Pascal Fua<br>
+          <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2018. <br>
+          <a href ="http://openaccess.thecvf.com/content_cvpr_2018/Supplemental/3117-supp.pdf">supplementary</a>
+          /
+          <a href ="https://github.com/Microsoft/singleshotpose">code</a>
+          <p></p>
+          <p align=justify>We introduce a new deep learning architecture that naturally extends the single-shot 2D object detection paradigm to 6D object pose estimation. It demonstrates state-of-the-art accuracy with real-time performance and is at least 5 times faster than the existing methods (50 to 94 fps depending on the input resolution). </p>
+          <p></p>
+        </td>
+      </tr>
+  
+      <tr onmouseout="ffcc_stop()" onmouseover="ffcc_start()" >
+        <td width="25%">
+          <img src='latentpose.png'>
+        </td>
+        <td valign="top" width="75%">
+          <p><a href="https://infoscience.epfl.ch/record/252823/files/main_paper.pdf">
+          <papertitle>Learning Latent Representations of 3D Human Pose with Deep Neural Networks</papertitle></a><br>
+          Isinsu Katircioglu*, <strong>Bugra Tekin*</strong>, Mathieu Salzmann, Vincent Lepetit, Pascal Fua<br>
+          <em>International Journal of Computer Vision (IJCV)</em>, 2018. <br>
+          <p></p>
+          <p align=justify>We propose an efficient Long-Short-Term-Memory (LSTM) network for enforcing consistency of 3D human pose predictions across temporal windows.</p>
+        </td>
+      </tr>
+  
+      <tr onmouseout="ffcc_stop()" onmouseover="ffcc_start()" >
+        <td width="25%">
+          <img src='fusion.png'>
+        </td>
+        <td valign="top" width="75%">
+          <p><a href="https://arxiv.org/pdf/1611.05708v1.pdf">
+          <papertitle>Learning to Fuse 2D and 3D Image Cues for Monocular Body Pose Estimation</papertitle></a><br>
+          <strong>Bugra Tekin</strong>, Pablo Marquez-Neila, Mathieu Salzmann Pascal Fua<br>
+          <em>International Conference on Computer Vision (ICCV)</em>, 2017. <br>
+          <a href ="https://infoscience.epfl.ch/record/230311/files/TekinEtAlICCV17Supp.zip">supplementary</a>
+          /
+          <a href ="https://drive.switch.ch/index.php/s/jvPwlyJUb4lxR0M">code</a>
+          /
+          <a href ="https://cvlab.epfl.ch/research/surv/human-pose-estimation">project</a>
+          <p></p>
+          <p align=justify>We introduce an approach to learn where and how to fuse the streams of a two-stream convolutional neural network operating on different input modalities for 3D human pose estimation.</p>
+        </td>
+      </tr>
+  
+      <tr onmouseout="ffcc_stop()" onmouseover="ffcc_start()" >
+        <td width="25%">
+          <img src='hardfusion.png'>
+        </td>
+        <td valign="top" width="75%">
+          <p><a href="https://arxiv.org/pdf/1611.05708v1.pdf">
+          <papertitle>Fusing 2D Uncertainty and 3D Cues for Monocular Body Pose Estimation</papertitle></a><br>
+          <strong>Bugra Tekin</strong>, Pablo Marquez-Neila, Mathieu Salzmann, Pascal Fua<br>
+          <em>arXiv Preprint, arXiv:1611.05708</em>, 2016. <br>
+          <a href ="https://cvlab.epfl.ch/research/surv/human-pose-estimation">project</a>
+          <p></p>
+          <p align=justify>We propose to jointly model 2D uncertainty and leverage 3D image cues in a regression framework for reliable monocular 3D human pose estimation.</p>
+        </td>
+      </tr>
+  
+      <tr onmouseout="ffcc_stop()" onmouseover="ffcc_start()" >
+        <td width="25%">
+          <img src='autoenc.png'>
+        </td>
+        <td valign="top" width="75%">
+          <p><a href="https://infoscience.epfl.ch/record/220616/files/tekin_bmvc16.pdf">
+          <papertitle>Structured Prediction of 3D Human Pose with Deep Neural Networks</papertitle></a><br>
+          <strong>Bugra Tekin*</strong>, Isinsu Katircioglu*, Mathieu Salzmann, Vincent Lepetit, Pascal Fua<br>
+          <em>British Machine Vision Conference (BMVC)</em>, 2016. <strong>(oral)</strong> <br>
+          <p></p>
+          <p align=justify>We introduce a Deep Learning regression architecture for structured prediction of 3D human pose from monocular images that relies on an overcomplete auto-encoder to learn a high-dimensional latent pose representation and account for joint dependencies.</p>
+        </td>
+      </tr>
+  
+      <tr onmouseout="ffcc_stop()" onmouseover="ffcc_start()" >
+        <td width="25%">
+          <img src='rstv.png'>
+        </td>
+        <td valign="top" width="75%">
+          <p><a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Tekin_Direct_Prediction_of_CVPR_2016_paper.pdf">
+          <papertitle>Direct Prediction of 3D Body Poses from Motion Compensated Sequences</papertitle></a><br>
+          <strong>Bugra Tekin</strong>, Artem Rozantsev, Vincent Lepetit, Pascal Fua<br>
+          <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2016.<br>
+          <a href ="https://cvlab.epfl.ch/research/surv/human-pose-estimation">project</a>
+          <p></p>
+          <p align=justify>We propose to predict the 3D human pose from a spatiotemporal volume of bounding boxes. We further propose a CNN-based motion compensation method that increases the stability and reliability of our 3D pose estimates.
+        </p>
+        <p></p>
+        </td>
+      </tr>
+  
+      <tr onmouseout="ffcc_stop()" onmouseover="ffcc_start()" >
+        <td width="25%">
+          <img src='stfeatures.png'>
+        </td>
+        <td valign="top" width="75%">
+          <p><a href="https://arxiv.org/pdf/1504.08200v1.pdf">
+          <papertitle>Predicting People's 3D Poses from Short Sequences</papertitle></a><br>
+          <strong>Bugra Tekin</strong>, Xiaolu Sun, Xinchao Wang, Vincent Lepetit, Pascal Fua<br>
+          <em>arXiv Preprint, arXiv:1504.08200</em>, 2015.<br>
+          <p></p>
+          <p align=justify>We propose an efficient approach to exploiting motion information from consecutive frames of a video sequence to recover the 3D pose of people. Instead of computing candidate poses in individual frames and then linking them, as is often done, we regress directly from a spatio-temporal block of frames to a 3D pose in the central one.
+        </p>
+        </td>
+      </tr>
+  
+      <tr onmouseout="ffcc_stop()" onmouseover="ffcc_start()" >
+        <td width="25%">
+          <img src='separable.png'>
+        </td>
+        <td valign="top" width="75%">
+          <p><a href="https://infoscience.epfl.ch/record/200142/files/separable_filters_learning_1.pdf">
+          <papertitle>Learning Separable Filters</papertitle></a><br>
+          Amos Sironi*, <strong>Bugra Tekin*</strong>, Roberto Rigamonti, Vincent Lepetit, Pascal Fua<br>
+          <em>Pattern Analysis and Machine Intelligence (PAMI)</em>, 2015.<br>
+          <a href ="https://infoscience.epfl.ch/record/200142/files/appendix.pdf">supplementary</a>
+          /
+          <a href ="https://bitbucket.org/bugratekin/learning_2d_separable_filters_sep_td/src">code 2D</a>
+          /
+          <a href ="https://bitbucket.org/bugratekin/learning_2d_separable_filters_sep_td/src">code 3D</a>
+          <p></p>
+          <p align=justify> We introduce an efficient approach to approximate a set of nonseparable convolutional filters by linear combinations of a smaller number of separable ones. We demonstrate that this greatly reduces the computational complexity at no cost in terms of performance for image recognition tasks with convolutional filters and CNNs. 
+        </p>
+        </td>
+      </tr>
+  
+      <tr onmouseout="ffcc_stop()" onmouseover="ffcc_start()" >
+        <td width="25%">
+          <img src='steerable.png'>
+        </td>
+        <td valign="top" width="75%">
+          <p><a href="http://bigwww.epfl.ch/publications/tekin1301.pdf">
+          <papertitle>Benefits of Consistency in Image Denoising with Steerable Wavelets</papertitle></a><br>
+          <strong>Bugra Tekin</strong>, Ulugbek Kamilov, Emrah Bostan, Michael Unser<br>
+          <em>International Conference on Acoustics, Speech and Signal Processing (ICASSP)</em>, 2013. <strong>(oral)</strong> <br>
+          <p></p>
+          <p align=justify> We propose a technique for improving the performance of L1-based image denoising in the steerable wavelet domain. Our technique, which we call consistency, refers to the fact that the solution obtained by the algorithm is constrained to the space spanned by the basis functions of the transform, which results in a certain norm equivalence between image-domain and wavelet-domain estimations.
+        </p>
+        </td>
+      </tr>
+  
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <tr>
+          <td width="100%" valign="middle">
+            <p>
+            (*: indicates equal contribution)
+            </p>
+          </td>
+        </tr>
+        </table>
+  
+        <table width="100%" align="justify" border="0" cellspacing="0" cellpadding="20">
+        <tr>
+          <td width="100%" valign="middle">
+            <heading>Theses</heading>
+          </td>
+        </tr>
+        </table>
+  
+        <table width="100%" align="justify" border="0" cellspacing="0" cellpadding="20">
+        <tr onmouseout="ffcc_stop()" onmouseover="ffcc_start()" >
+        <td width="25%" valign="top">
+          <img src='phdthesiscover.png'>
+        </td>
+        <td valign="top" width="75%">
+          <p><a href="https://infoscience.epfl.ch/record/256865/files/EPFL_TH8753.pdf">
+          <papertitle>Learning Robust Features and Latent Representations for Single View 3D Pose Estimation of Humans and Objects</papertitle></a><br>
+          Bugra Tekin<br>
+          <em>Ph.D. Thesis </em>, September 2018 <br>
+          <p></p>
+        </td>
+        </tr>
+        <tr onmouseout="ffcc_stop()" onmouseover="ffcc_start()" >
+        <td width="25%" valign="top">
+          <img src='masterthesiscover.png'>
+        </td>
+        <td valign="top" width="75%">
+          <p><a href="https://infoscience.epfl.ch/record/229999/files/ms_thesis_tekin.pdf">
+          <papertitle>Learning Separable Filters with Shared Parts</papertitle></a><br>
+          Bugra Tekin<br>
+          <em>M.Sc. Thesis </em>, June 2013 <br>
+          <p></p>
+        </td>
+        </tr>
+        </table>
+  
+        <table width="100%" align="justify" border="0" cellspacing="0" cellpadding="20">
+        <tr>
+          <td width="100%" valign="middle">
+            <heading>Patent</heading>
+          </td>
+        </tr>
+        </table>
+        <table width="100%" align="justify" border="0" cellspacing="0" cellpadding="20">
+        <tr onmouseout="ffcc_stop()" onmouseover="ffcc_start()" >
+        <td width="25%" valign="top">
+          <img src='directpose.png'>
+        </td>
+        <td valign="top" width="75%">
+          <p><a href="https://www.google.ch/patents/US20170316578">
+          <papertitle>Method, System and Device for Direct Prediction of 3D Body Poses from Motion Compensated Sequence</papertitle></a><br>
+          Pascal Fua, Vincent Lepetit, Artem Rozantsev, <strong>Bugra Tekin</strong><br>
+          <em>US Patent </em>, Pub. No: US 2017-0316578 A1, Pub. Date: November 02, 2017 <br>
+          <p></p>
+        </td>
+      </tr>
+        </table>
+  
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <tr>
+          <td>
+          <heading>Teaching</heading>
+          </td>
+        </tr>
+        </table>
+        <table width="100%" align="center" border="0" cellpadding="20">
+        <tr>
+          <td width="25%"><img src="nnteaching.png" alt="nnteaching" width="160" height="160"></td>
+          <td width="75%" valign="center">
+          <p>
+            Deep Learning, TA, 2018
+          </p>
+          <p>
+            Computer Vision, TA, 2016, 2017
+          </p>
+          <p>
+            Numerical Methods for Visual Computing, TA, 2016
+          </p>
+          <p>  
+            Programmation (C/C++) / (Java), TA, 2013, 2015
+          </p>
+          <p> 
+            Principles of Digital Communications, TA, 2013
+          </p>
+          <p>  
+            Circuits and Systems I/II, TA, 2011, 2012, 2013
+          </p>
+          </td>
+        </tr>
+        </table>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <tr>
+          <td>
+          <br>
+          <p align="right">
+            <font size="2">
+            <a href="https://forvo.com/word/bu%C4%9Fra/#tr"><strong>pronunciation of my name, Bu&#287;ra</strong></a> / <a href="https://jonbarron.info/"><strong>website template</strong></a> 
+          </font>
+          </p>
+          </td>
+        </tr>
+        </table>
+        <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  
+        </script> <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-7580334-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+        </script>
+      </td>
+      </tr>
+    </table>
+</body>
+</html>
